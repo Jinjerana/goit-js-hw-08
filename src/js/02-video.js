@@ -59,8 +59,6 @@ player.setCurrentTime(LS).then(function(seconds) {
     }
 });
 
-const throttle = require('lodash.throttle');
-
 // throttle(func, [wait=1000], [options={}])
 
 console.log(Player)
